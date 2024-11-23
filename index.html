@@ -15,7 +15,7 @@
   
   <title>
     
-    Hexo
+    欢迎
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic&display=swap" media="print" onload="this.media&#x3D;&#39;all&#39;">
@@ -29,9 +29,9 @@
   
   
     <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="欢迎">
 <meta property="og:url" content="https://hpjack666.github.io/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="欢迎">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://hpjack666.github.io/images/banner.webp">
 <meta property="article:author" content="Peng Hai">
@@ -39,7 +39,7 @@
 <meta name="twitter:image" content="https://hpjack666.github.io/images/banner.webp">
   
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="欢迎" type="application/atom+xml">
   
   
     <link rel="shortcut icon" href="/images/favicon.ico">
@@ -156,13 +156,15 @@
         
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">Hexo</h1>
+            <h1 data-aos="slide-up">欢迎</h1>
           </a>
         
       
       
         
         <h2 id="subtitle-wrap" data-aos="slide-down">
+          
+            <a href="/" id="subtitle">用博客承载梦想，用文字点燃激情</a>
           
         </h2>
       
@@ -177,31 +179,41 @@
     <div class="post-wrapper">
   <div class="post-wrap-left" data-aos="fade-up">
     
-      <a class="post-link" href="/2024/11/20/hello-world/" aria-label="Hello World"></a>
+      <a class="post-link" href="/2024/11/24/%E4%BD%9C%E4%B8%9A%E6%8A%A5%E5%91%8A/" aria-label="qt实现计算器"></a>
     
     
     <div class="post-cover-left">
       
         
         
-          <img data-src="/images/banner.webp" data-sizes="auto" alt="Hello World" class="lazyload">
+          <img data-src="/images/banner.webp" data-sizes="auto" alt="qt实现计算器" class="lazyload">
         
       
     </div>
     <div class="post-info">
       <div class="post-meta">
-        <span><span class="icon-calendar"></span>2024-11-20</span>
-        <span><span class="icon-pencil"></span>75 字</span>
-        <span><span class="icon-clock"></span>1 分钟</span>
+        <span><span class="icon-calendar"></span>2024-11-24</span>
+        <span><span class="icon-pencil"></span>1.9k 字</span>
+        <span><span class="icon-clock"></span>8 分钟</span>
       </div>
-      <h2 class="post-title">Hello World</h2>
+      <h2 class="post-title">qt实现计算器</h2>
       <article class="post-article">
         
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &amp;quot;My New Post&amp;quot;
+          项目描述：利用栈实现中缀表达式求值，并实现一个图形界面的计算器
+设计思路：
+从界面获取表达式字符串，对表达式字符串进行操作
 
-More info: Writing
-Run server1$ hexo ser
+使用两个栈，stack1用于存储操作数，stack2用于存储操作符
+
+为方便后续操作符的优先级比较，给stack2先入栈一个’#‘字符
+
+从左往右遍历表达式字符串，遇到操作数入栈stack1
+
+如果遇到操作符优先级低于栈顶操作符优先级，则从stack1弹出两个元素，stack2弹出栈顶操作符进行计算，并将结果压入stack1
+
+如果遇到操作符优先级高于栈顶操作符优先级，则直接入栈stack2
+
+如果遇到操作符优先级等于栈顶操作符优先级，只可能是左右括号，则直接弹出sta
         
       </article>
     </div>
@@ -218,7 +230,7 @@ Run server1$ hexo ser
     <div class="sidebar-wrap" data-aos="fade-up">
       
         <div class="sidebar-author">
-  <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="Peng Hai" class="lazyload">
+  <img data-src="/avatar/avatar.jfif" data-sizes="auto" alt="Peng Hai" class="lazyload">
   <div class="sidebar-author-name">Peng Hai</div>
   <div class="sidebar-description"></div>
 </div>
@@ -298,10 +310,10 @@ Run server1$ hexo ser
     
       <div>
         <span class="icon-brush"></span>
-        75
+        1.9k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:01
+        00:08
       </div>
     
     
@@ -328,7 +340,7 @@ Run server1$ hexo ser
   <div class="sidebar-wrap">
     
       <div class="sidebar-author">
-  <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="Peng Hai" class="lazyload">
+  <img data-src="/avatar/avatar.jfif" data-sizes="auto" alt="Peng Hai" class="lazyload">
   <div class="sidebar-author-name">Peng Hai</div>
   <div class="sidebar-description"></div>
 </div>
