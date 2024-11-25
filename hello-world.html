@@ -226,11 +226,6 @@
     <div class="sponsor-qr">
       
         <div class="sponsor-qr-image-wrapper">
-          <img src="/sponsor/alipay.jfif" alt=支付宝 width="200" />
-          <p class="sponsor-qr-name">支付宝</p>
-        </div>
-      
-        <div class="sponsor-qr-image-wrapper">
           <img src="/sponsor/wechat.jfif" alt=微信 width="200" />
           <p class="sponsor-qr-name">微信</p>
         </div>
@@ -241,6 +236,25 @@
       
       
       
+      
+        <a data-aos="zoom-in" href="/hello-world.html#comments" class="article-comment-link">
+          <span class="post-comments-count twikoo-comment-count" data-path="/hello-world.html" itemprop="commentCount"></span>
+          留言
+        </a>
+        <script>
+          twikoo.getCommentsCount({
+            envId: 'https://hpjack666.netlify.app',
+            region: '',
+            urls: [
+              '/hello-world.html'
+            ],
+            includeReply: false
+          }).then((res) => {
+            _$('.twikoo-comment-count').innerText = res[0].count;
+          }).catch((err) => {
+            console.error(err);
+          });
+        </script>
       
       
       
@@ -253,6 +267,8 @@
 </article>
 
 
+
+  <div id="comments" class="tcomment" data-aos="fade-up"></div>
 
 
 
@@ -283,6 +299,14 @@
   </div>
 </div>
 <div class="sidebar-social">
+  
+    <div class="icon-steam sidebar-social-icon">
+      <a href=https://steamcommunity.com/profiles/76561199544639587/ itemprop="url" target="_blank" aria-label="steam" rel="noopener external nofollow noreferrer"></a>
+    </div>
+  
+    <div class="icon-csdn sidebar-social-icon">
+      <a href=https://blog.csdn.net/weixin_72949205 itemprop="url" target="_blank" aria-label="csdn" rel="noopener external nofollow noreferrer"></a>
+    </div>
   
 </div>
 <div class="sidebar-menu">
@@ -393,6 +417,14 @@
   </div>
 </div>
 <div class="sidebar-social">
+  
+    <div class="icon-steam sidebar-social-icon">
+      <a href=https://steamcommunity.com/profiles/76561199544639587/ itemprop="url" target="_blank" aria-label="steam" rel="noopener external nofollow noreferrer"></a>
+    </div>
+  
+    <div class="icon-csdn sidebar-social-icon">
+      <a href=https://blog.csdn.net/weixin_72949205 itemprop="url" target="_blank" aria-label="csdn" rel="noopener external nofollow noreferrer"></a>
+    </div>
   
 </div>
 <div class="sidebar-menu">
@@ -529,6 +561,17 @@
 
 
 
+
+  
+<script src="https://npm.webcache.cn/twikoo@1.6.16/dist/twikoo.all.min.js" integrity="sha384-lDHsr5aZmkMS0eKnsUu6e9RWP+dRmn7sgjRAKGOAoXfMyzbUK6Qi86zZK7R+KvRV" crossorigin="anonymous" data-pjax></script>
+
+  <script data-pjax>
+    twikoo.init({
+      envId: 'https://hpjack666.netlify.app',
+      el: '.tcomment',
+      region: '',
+    })
+  </script>
 
 
 
