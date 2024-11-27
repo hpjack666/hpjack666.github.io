@@ -191,6 +191,9 @@
 .icon-email:before {
   content: "\e63c";
 }
+.icon-csdn:before {
+  content: "\e600";
+}
 .sidebar-btn-wrapper .sidebar-toc-btn:before {
   font-family: "iconfont";
   content: "\e633";

@@ -188,6 +188,9 @@
 .icon-email:before {
   content: "\f0e0";
 }
+.icon-csdn:before {
+  content: "\e600";
+}
 .sidebar-btn-wrapper .sidebar-toc-btn:before {
   font-family: var(--font-icon);
   content: "\f0e8";
