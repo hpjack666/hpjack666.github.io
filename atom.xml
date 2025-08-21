@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>欢迎</title>
-  <icon>http://example.com/icon.png</icon>
+  <title>ONE PIECE</title>
+  <icon>https://hpjack666.github.io/icon.png</icon>
+  <subtitle>俺はコード王になる！</subtitle>
+  <link href="https://hpjack666.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/"/>
+  <link href="https://hpjack666.github.io/"/>
   <updated>2025-08-21T07:38:20.344Z</updated>
-  <id>http://example.com/</id>
+  <id>https://hpjack666.github.io/</id>
   
   <author>
     <name>hpjack666</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/12/24/hello-world/"/>
-    <id>http://example.com/2022/12/24/hello-world/</id>
+    <link href="https://hpjack666.github.io/2022/12/24/hello-world/"/>
+    <id>https://hpjack666.github.io/2022/12/24/hello-world/</id>
     <published>2022-12-24T09:49:32.000Z</published>
     <updated>2025-08-21T07:38:20.344Z</updated>
     
@@ -36,10 +36,10 @@
     
     
     
-    <category term="AI" scheme="http://example.com/categories/AI/"/>
+    <category term="AI" scheme="https://hpjack666.github.io/categories/AI/"/>
     
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://hpjack666.github.io/tags/hexo/"/>
     
   </entry>
   
