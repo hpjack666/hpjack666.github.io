@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>欢迎</title>
+  <icon>http://example.com/icon.png</icon>
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2025-08-21T07:38:20.344Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>hpjack666</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/12/24/hello-world/"/>
+    <id>http://example.com/2022/12/24/hello-world/</id>
+    <published>2022-12-24T09:49:32.000Z</published>
+    <updated>2025-08-21T07:38:20.344Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><p>Welcome to <a href="http://zespia.tw/hexo">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs">documentation</a> to learn how to use.</p><h4 id="代码测试"><a href="#代码测试" class="headerlink" title="代码测试"></a>代码测试</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">public:</span><br><span class="line">    Widget(QWidget *parent = nullptr);</span><br><span class="line">    ~Widget();</span><br><span class="line">    void init();//初始化</span><br><span class="line">    void allConnect();//建立按钮信号连接</span><br><span class="line">    void calculate(const std::string &amp;myStr);//计算函数</span><br><span class="line">    void setBackground();//美化GUI，添加一系列的样式表</span><br><span class="line">    void updateHis();//更新历史记录</span><br><span class="line"></span><br><span class="line">private slots:</span><br><span class="line">    void showHis();//展示历史记录</span><br><span class="line">    void clearHistory();//请空历史记录</span><br><span class="line"></span><br><span class="line">private:</span><br><span class="line">    Ui::Widget *ui;</span><br><span class="line">    MyStack&lt;double&gt; stack1;//操作数栈</span><br><span class="line">    MyStack&lt;char&gt; stack2;//操作符栈</span><br><span class="line">    QString res;//结果</span><br><span class="line">    QList&lt;QString&gt; history;//历史记录</span><br><span class="line">    <span class="built_in">bool</span> his;//是否更新历史记录</span><br><span class="line">    QWidget *historyWidget;//历史记录界面</span><br><span class="line">    QVBoxLayout *layout;//历史记录的布局</span><br></pre></td></tr></table></figure><h4 id="mermaid测试"><a href="#mermaid测试" class="headerlink" title="mermaid测试"></a>mermaid测试</h4>  <pre class="mermaid">    flowchart LR      A["JS"]      B["Mermaid"]      C["Markdown 原生"]      D["Markdown 定制"]      A --制作了--> B --内嵌到了 --> C --衍生了--> D</pre><pre class="mermaid">%% Mermaid 流程图语法flowchart TD    A([开始]) --> B[访问登录页面]    B --> C{是否已注册?}    C -- 是 --> D[输入用户名/密码]    C -- 否 --> E[跳转注册页面]    D --> F[验证凭证]    F --> G{验证成功?}    G -- 是 --> H[进入个人主页]    G -- 否 --> I[显示错误提示]    I --> D    H --> J([结束])    E --> K[填写注册信息] --> L[提交注册] --> B</pre><h2 id="热力图测试"><a href="#热力图测试" class="headerlink" title="热力图测试"></a>热力图测试</h2><script>var REIMU_HEATMAP_CONFIG = {articleStats: [{"title":"Hello World","date":"2022-12-24T09:49:32.000Z","updated":"2025-08-21T07:38:20.344Z","wordcount":289,"url":"/2022/12/24/hello-world/"}], i18n: {"en":{"no_articles":"No articles","words":"word(s)","total_articles":"$1 article(s), $2 word(s)"},"ja":{"no_articles":"記事がありません","words":"文字","total_articles":"$1 記事, $2 文字"},"zh-CN":{"no_articles":"没有文章","words":"字","total_articles":"共 $1 篇文章, $2 字"},"zh-TW":{"no_articles":"没有文章","words":"字","total_articles":"共 $1 篇文章, $2 字"},"pt-BR":{"no_articles":"Sem artigos","words":"palavra(s)","total_articles":"$1 artigo(s), $2 palavra(s)"}}, levelStandard: "levelStandard"};</script><link rel="stylesheet" href="/css/heat-map.css"><div id="heatmap"></div><script src="/js/heat_map.js"></script>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;tags&quot;&gt;&lt;a href=&quot;#tags&quot; class=&quot;headerlink&quot; title=&quot;tags:&quot;&gt;&lt;/a&gt;tags:&lt;/h2&gt;&lt;p&gt;Welcome to &lt;a href=&quot;http://zespia.tw/hexo&quot;&gt;Hexo&lt;/a&gt;! This</summary>
+        
+      
+    
+    
+    
+    <category term="AI" scheme="http://example.com/categories/AI/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
